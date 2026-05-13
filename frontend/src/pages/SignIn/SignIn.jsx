@@ -124,9 +124,9 @@ function SignIn({ setUser }) {
             onClick={signUp}
           >
             {
-                isLoading
-                  ? <div className="mr-2 w-5 h-5 border-l-2 rounded-full animate-spin" /> : null
-              }
+              isLoading
+                ? <div className="mr-2 w-5 h-5 border-l-2 rounded-full animate-spin" /> : null
+            }
             <span>
               {'S\'inscrire'}
             </span>
